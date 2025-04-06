@@ -1,0 +1,72 @@
+*{
+  margin: 0;
+}
+.todocontainer{
+  height: 100vh;
+  background-color: #f2bde99d;
+  min-height: 100%;
+}
+.taskcontainer{
+  position: relative;
+  background-color: white;
+  max-width: fit-content;
+  padding: 25px;
+  box-shadow: 5px 5px 5px;
+  margin-left: auto;
+  margin-right: auto;
+  top: 30px;
+  border-radius: 16px;
+}
+.addbutton{
+  background-color: blueviolet;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 10px;
+  cursor: pointer;
+}
+.addicon{
+  height: 10px;
+  width: 10px;
+  fill:white;
+  margin-top: 0px;
+  margin-right: 10px;
+  border:2px white solid;
+  border-radius: 100%;
+}
+.spanbtn{
+  margin-top: 0px;
+}
+.taskinput{
+  border-radius: 8px;
+  border-width: 1px;
+  border-color: #9995959d;
+  width: 150px;
+  height: 20px;
+  margin-right: 20px;
+}
+.tasklist{
+  list-style-type: none;
+  margin: 0px;
+  margin-top: 20px;
+  margin-left: 0px;
+  margin-block-start: 0px;
+  margin-block-end: 0px;
+}
+.taskitem{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.checkbutton{
+  border: none;
+  background: none;
+}
+.checkitem{
+  height: 20px;
+  width: 20px;
+  fill: black;
+}
+.strike{
+  text-decoration: line-through;
+}
